@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="./main.css">
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+    <title>Dice Game</title> 
+</head> 
+  
+<body> 
+    <div class="container"> 
+        <h1>Let's Play</h1> 
+  
+        <div class="dice"> 
+            <p class="Player1">Player 1</p><p id="score">Score</p><br>
+            <p id="scoreNum">0</p>
+            <img class="img1" src="img/dice1.png" style="width:150px" data-value ="1" id="image1"> 
+           
+        </div> 
+  
+        <!-- <div class="dice"> 
+            <p class="Player2">Player 2</p> 
+            <img class="img2" src="img/dice6.png" style="width: 150px;"> 
+        </div> 
+    </div>  -->
+  
+    <div class="container bottom"> 
+        <button type="button" class="butn" id="Roll"> 
+            Roll the Die!
+        </button> 
+    </div> 
+    <div class="container bottom" id="edit"> 
+        <button type="button" class="butn"> 
+            Edit Names 
+        </button> 
+    </div> 
+<script src="./script.js"></script>
+</body> 
+  
+</html>
